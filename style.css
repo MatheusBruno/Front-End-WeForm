@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Firefox */
+/* #barra-process::-moz-progress-bar{ */
+    /* background-color: #ff0099; */
+/* } */
+/* #barra-process{ */
+    /* esse comando so funcionam no firefox */
+    /* background-color: white; */
+    /* border: 2px solid black; */
+/* } */
+/* Chrome */ /* esse comando so funcionam no Chrome */
+/* #barra-process::-webkit-progress-value{ */
+    /* background-color: #ff0099; */
+/* } */
+/* #barra-process::-webkit-progress-bar{ */
+    /* background-color: white; */
+/* } */
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#main-div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+}
+aside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside img{
+    width: 500px;
+    height: 500px;
+}
+aside h1{
+    font-size: 390%;
+    font-weight: 500;
+
+}
+aside h1 span{
+    color: green;
+}
+main{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > div{
+    
+    width: 680px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-first{
+    width: 100%;
+    height: 50%;
+}
+#main-first h2{
+    max-width: 390px;
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 190%;
+    font-weight: 500;
+}
+
+#main-first span{
+    color: green;
+}
+
+#main-segond{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#main-segond button:nth-child(1){
+    background-color: rgba(16, 16, 16, 0.832);
+    margin-bottom: 8%;
+}
+
+#main-segond button:nth-child(2){
+    background-color: green;
+}
+
+#main-segond button{
+    width: 80%;
+    height: 15%;
+    color: white;
+    font-size: 150%;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 12px;
+}
+
+#main-segond button:hover{
+    cursor: pointer;
+}
+
+#main-segond p {
+    margin-top: 3%;
+    font-size: 120%;
+    margin-bottom: 5%;
+}
+
+#main-segond a {
+    font-size: 115%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+    color: black;
+}
+
